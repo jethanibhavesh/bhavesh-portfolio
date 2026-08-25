@@ -242,7 +242,7 @@ section{width:100%; position:relative;}
 }
 .hero-image{
   width:100%; height:100%;
-  object-fit:cover;
+  object-fit:contain;
   display:block;
   transition:transform .6s cubic-bezier(.16,.8,.3,1);
 }
@@ -412,7 +412,7 @@ section{width:100%; position:relative;}
   overflow:hidden;
   transition:transform .5s cubic-bezier(.16,.8,.3,1);
 }
-.project-image img{width:100%;height:100%;object-fit:cover;display:block;}
+.project-image img{width:100%;height:100%;object-fit:contain;display:block;}
 .project-card:hover .project-image{transform:scale(1.05);}
 .projects-grid .project-card:nth-child(1) .project-image{background:linear-gradient(135deg,#1e293b,#334155);}
 .projects-grid .project-card:nth-child(2) .project-image{background:linear-gradient(135deg,#312e81,#1e1b4b);}
